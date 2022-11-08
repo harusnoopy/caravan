@@ -140,7 +140,7 @@ main {
   display: inline-block;
   width: 30px;
   height: 30px;
-  margin: 0.5px;
+  margin: 0 5px;
   color: #fff;
   background-color: #acabab;
   border-radius: 3px;
@@ -228,7 +228,67 @@ footer {
   color: #fff;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width:425px) {
+  header {
+    width: 100%;
+  }
+
+  .heading {
+    width: 100%;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .nav-list {
+    width: 100%;
+  }
+
+  .nav-list-item {
+    display: block;
+    padding-bottom: 7px;
+  }
+
+  .blog {
+    width: 100%;
+  }
+
+  .blog-item {
+    width: 100%;
+  }
+
+  .blog-text {
+    width: 50%;
+  }
+
+  .blog-image {
+    width: 50%;
+  }
+
+  .category {
+    display: none;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+
+  .main-visual-content {
   width: 100%;
-  
+  }
+
+  .pagination {
+    padding-bottom: 50px;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
 }
